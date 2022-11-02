@@ -6,15 +6,8 @@ using UnityEngine.SceneManagement;
 public class buttonHandlerScript : MonoBehaviour
 {
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    public GameObject startButtonGO;
+    public GameObject quitButtonGO;
 
     public void startGame(){
         StartCoroutine(startButton());
